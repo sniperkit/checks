@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2016 Palantir Technologies, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -32,7 +37,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/palantir/checks/ptimports/ptimports"
+	"github.com/sniperkit/snk.fork.palantir-checks/ptimports/ptimports"
 )
 
 var (

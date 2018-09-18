@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2016 Palantir Technologies, Inc. All rights reserved.
 // Licensed under the MIT License. See LICENSE in the project root
 // for license information.
@@ -10,7 +15,7 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/palantir/checks/outparamcheck/outparamcheck"
+	"github.com/sniperkit/snk.fork.palantir-checks/outparamcheck/outparamcheck"
 )
 
 func main() {

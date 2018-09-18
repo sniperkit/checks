@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2013 Kamil Kisiel
 // Modifications copyright 2016 Palantir Technologies, Inc.
 // Licensed under the MIT License. See LICENSE in the project root

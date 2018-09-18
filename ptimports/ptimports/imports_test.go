@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2016 Palantir Technologies, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -20,7 +25,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/palantir/checks/ptimports/ptimports"
+	"github.com/sniperkit/snk.fork.palantir-checks/ptimports/ptimports"
 )
 
 func TestPtImports(t *testing.T) {
@@ -33,7 +38,7 @@ func TestPtImports(t *testing.T) {
 			"Groups imports based on builtin, external, and project-local",
 			`package foo
 
-import "github.com/palantir/checks/ptimports/ptimports"
+import "github.com/sniperkit/snk.fork.palantir-checks/ptimports/ptimports"
 import "bytes"
 import "golang.org/x/tools/imports"
 
@@ -50,7 +55,7 @@ import (
 
 	"golang.org/x/tools/imports"
 
-	"github.com/palantir/checks/ptimports/ptimports"
+	"github.com/sniperkit/snk.fork.palantir-checks/ptimports/ptimports"
 )
 
 func Foo() {

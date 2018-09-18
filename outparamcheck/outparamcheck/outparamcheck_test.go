@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2013 Kamil Kisiel
 // Modifications copyright 2016 Palantir Technologies, Inc.
 // Licensed under the MIT License. See LICENSE in the project root
@@ -54,7 +59,7 @@ func TestOutParamCheck(t *testing.T) {
 	}
 
 	// hypothetical package
-	packagePath := "github.com/palantir/checks/outparamcheck"
+	packagePath := "github.com/sniperkit/snk.fork.palantir-checks/outparamcheck"
 	packageName := "main"
 	pkg := types.NewPackage(packagePath, packageName)
 

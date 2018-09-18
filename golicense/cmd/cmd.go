@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2016 Palantir Technologies, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -25,8 +30,8 @@ import (
 	"github.com/palantir/pkg/matcher"
 	"github.com/pkg/errors"
 
-	"github.com/palantir/checks/golicense/config"
-	"github.com/palantir/checks/golicense/golicense"
+	"github.com/sniperkit/snk.fork.palantir-checks/golicense/config"
+	"github.com/sniperkit/snk.fork.palantir-checks/golicense/golicense"
 )
 
 const (

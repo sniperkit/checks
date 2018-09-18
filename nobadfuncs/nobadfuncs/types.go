@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2016 Palantir Technologies, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -24,7 +29,7 @@ import (
 // package references have their vendor references removed.
 //
 // Without this, the "String()" function for a function returns output of the form:
-//  func (github.com/palantir/checks/vendor/github.com/Foo).Foo(paramVarName github.com/palantir/checks/vendor/github.com/foo.FooType) (namedReturnVar github.com/palantir/checks/vendor/github.com/foo.FooType)
+//  func (github.com/sniperkit/snk.fork.palantir-checks/vendor/github.com/Foo).Foo(paramVarName github.com/sniperkit/snk.fork.palantir-checks/vendor/github.com/foo.FooType) (namedReturnVar github.com/sniperkit/snk.fork.palantir-checks/vendor/github.com/foo.FooType)
 //
 // The "String()" function for the function returned by this function for the above would be:
 //  func (github.com/Foo).Foo(github.com/foo.FooType) github.com/foo.FooType

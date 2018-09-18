@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2016 Palantir Technologies, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -20,7 +25,7 @@ import (
 	"github.com/pkg/errors"
 	"gopkg.in/yaml.v2"
 
-	"github.com/palantir/checks/gocd/gocd"
+	"github.com/sniperkit/snk.fork.palantir-checks/gocd/gocd"
 )
 
 type GoCD struct {

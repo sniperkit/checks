@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2013 Kamil Kisiel
 // Modifications copyright 2016 Palantir Technologies, Inc.
 // Licensed under the MIT License. See LICENSE in the project root
@@ -14,7 +19,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/palantir/checks/outparamcheck/exprs"
+	"github.com/sniperkit/snk.fork.palantir-checks/outparamcheck/exprs"
 )
 
 var stmtCases = []struct {

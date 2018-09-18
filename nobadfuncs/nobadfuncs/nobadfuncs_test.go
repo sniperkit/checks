@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2016 Palantir Technologies, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -30,7 +35,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/palantir/checks/nobadfuncs/nobadfuncs"
+	"github.com/sniperkit/snk.fork.palantir-checks/nobadfuncs/nobadfuncs"
 )
 
 func TestPrintFuncRefUsages(t *testing.T) {
@@ -398,7 +403,7 @@ func LexEnter(l *Lexer) StateFn {
 				},
 			},
 			want: func(testDir string) string {
-				return fmt.Sprintf("%s:11:9: func github.com/palantir/checks/nobadfuncs/nobadfuncs/%s/foo.LexEnter(*github.com/palantir/checks/nobadfuncs/nobadfuncs/%s/foo.Lexer) github.com/palantir/checks/nobadfuncs/nobadfuncs/%s/foo.StateFn", path.Join(wd, testDir, "foo/foo.go"), testDir, testDir, testDir) + "\n"
+				return fmt.Sprintf("%s:11:9: func github.com/sniperkit/snk.fork.palantir-checks/nobadfuncs/nobadfuncs/%s/foo.LexEnter(*github.com/sniperkit/snk.fork.palantir-checks/nobadfuncs/nobadfuncs/%s/foo.Lexer) github.com/sniperkit/snk.fork.palantir-checks/nobadfuncs/nobadfuncs/%s/foo.StateFn", path.Join(wd, testDir, "foo/foo.go"), testDir, testDir, testDir) + "\n"
 			},
 		},
 		{

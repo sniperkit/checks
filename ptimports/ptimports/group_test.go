@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2016 Palantir Technologies, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -21,7 +26,7 @@ import (
 )
 
 func TestVendorGrouper(t *testing.T) {
-	grouper := newVendoredGrouper("github.com/palantir/checks/")
+	grouper := newVendoredGrouper("github.com/sniperkit/snk.fork.palantir-checks/")
 
 	for i, currCase := range []struct {
 		path  string
@@ -31,8 +36,8 @@ func TestVendorGrouper(t *testing.T) {
 		{path: "net/http", group: 0},
 		{path: "github.com/stretchr/testify/assert", group: 1},
 		{path: "github.com/palantir/pkg/pkgpath", group: 1},
-		{path: "github.com/palantir/checks", group: 2},
-		{path: "github.com/palantir/checks/ptimports", group: 2},
+		{path: "github.com/sniperkit/snk.fork.palantir-checks", group: 2},
+		{path: "github.com/sniperkit/snk.fork.palantir-checks/ptimports", group: 2},
 	} {
 		assert.Equal(t, currCase.group, grouper.importGroup(currCase.path), "Case %d: %s", i, currCase.path)
 	}

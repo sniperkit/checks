@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2016 Palantir Technologies, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -19,7 +24,7 @@ import (
 	"github.com/palantir/pkg/cli"
 	"github.com/palantir/pkg/cli/cfgcli"
 
-	"github.com/palantir/checks/golicense/cmd"
+	"github.com/sniperkit/snk.fork.palantir-checks/golicense/cmd"
 )
 
 func App() *cli.App {
